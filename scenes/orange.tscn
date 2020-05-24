@@ -38,7 +38,7 @@ script/script = ExtResource( 1 )
 transform/scale = Vector2( 0.3, 0.3 )
 texture = ExtResource( 2 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="Shape" type="CollisionShape2D" parent="."]
 
 transform/pos = Vector2( 0.71698, 5.37729 )
 shape = SubResource( 1 )
